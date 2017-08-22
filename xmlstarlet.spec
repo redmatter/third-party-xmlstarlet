@@ -48,6 +48,7 @@ rm -fr %{buildroot}
 
 %doc AUTHORS ChangeLog NEWS README Copyright TODO doc/xmlstarlet.txt
 %doc %{_mandir}/man1/xmlstarlet.1*
+%doc /usr/share/doc/xmlstarlet/*
 
 %{prefix}/bin/xml
 %changelog
