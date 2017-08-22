@@ -10,6 +10,7 @@ License: MIT
 Group: Text Tools
 Source0: http://xmlstar.sourceforge.net/downloads/xmlstarlet-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
+BuildRequires: gcc
 BuildRequires: libxml2-devel >= 2.6.27
 BuildRequires: libxslt-devel >= 1.1.9
 URL: http://xmlstar.sourceforge.net/
